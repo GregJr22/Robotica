@@ -1,0 +1,79 @@
+
+.logo{
+    margin: 0px 0px 0px 100px;
+    display: flex;
+    width: 10px;
+    align-items: center;
+
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(122, 116, 116);
+
+    font-size:70px;
+    font-weight: 80px;
+    font-family: 'Dongle';
+
+}
+.logo img{
+    margin: 0px 0px 0px 100px;
+    padding: 0px 20px 0px 0px; 
+    display: flex;
+    height: 150px;
+}
+
+.temperatura{
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: relative;
+    right: 100px;
+    text-align: right;
+    font-family: 'Dongle';
+    font-size:90px;
+}
+.humedad{
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: relative;
+    right: 185px;
+    text-align: right;
+    font-family: 'Dongle';
+    font-size:90px;
+}
+.estado{
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    position: relative;
+    right: 260px;
+    text-align: right;
+    font-family: 'Dongle';
+    font-size:90px;
+}
+#datos1{
+    line-height: 40px;
+    /* vertical-align: middle; */
+}
+
+
+
+/* #camara{
+    background-color: darkcyan;
+    height: 380px;
+    width: 380px;
+    margin-left: 140px;
+}   */
+
+#recomendacion{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    font-family: 'Dongle';
+    margin-left: 180px;
+
+}
+
+body {
+    background:fixed;
+    background-color: rgba(13, 13, 55, 0.5);
+    background-image: url(./Imagen/Fondo1.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
